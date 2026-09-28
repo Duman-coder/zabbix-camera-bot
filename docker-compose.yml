@@ -1,0 +1,7 @@
+services:
+  zabbix-bot:
+    build: .
+    container_name: zabbix_camera_bot
+    restart: always
+    env_file:
+      - .env
