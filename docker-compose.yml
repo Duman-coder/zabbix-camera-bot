@@ -1,6 +1,8 @@
+version: '3.8'
+
 services:
   zabbix-bot:
-    build: .
+    image: ghcr.io/duman-coder/zabbix-camera-bot:latest
     container_name: zabbix_camera_bot
     restart: always
     env_file:
